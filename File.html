@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mark Kiriti | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="Photo.jpg">
+</head>
+<body>
+  <div class="top-bar">
+    <h1>Mark Kiriti</h1>
+    <p>Student</p>
+  </div>
+
+  <div class="container">
+    <div class="left-panel">
+      <div class="photo-container">
+        <img src="Photo.jpg" alt="Your Photo">
+      </div>
+    </div>
+
+    <div class="right-panel">
+      <div class="intro">
+        <p class="greeting">Hi, I am <span class="highlight">Mark Kiriti</span>, a <span class="highlight">Student</span>. Welcome to my interactive portfolio page.</p>
+        <p class="instructions">These are the available commands:</p>
+        <ol class="commands">
+          <li><code>about</code></li>
+          <li><code>skills</code></li>
+          <li><code>projects</code></li>
+          <li><code>contact</code></li>
+        </ol>
+      </div>
+
+      <div class="cli">
+        <input type="text" id="commandInput" placeholder="Type a command and press Enter..." autofocus>
+        <div id="output"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
