@@ -4,7 +4,7 @@ const output = document.getElementById("output");
 const responses = {
   about: "I am Mark, a passionate Student with a love for Programming, innovation, and games. I am currently a student at DeKUT pursuing Computer Science.",
   skills: "Frontend: JavaScript, HTML, CSS, React, Typescript\n\nBackend: Node.js, Prolog, Rust, Python, Java, Go\n\nTechnologies: Git, Github, Linux\n\nOthers: Neural Networks, Computer Networks, Data Structures and Algorithms, Data Analysis",
-  projects: "1. Portfolio Website\n2. Travel booking app\n3. Calculator\n4. Social Media app\n5. Chat and Trading Bots",
+  projects: "1. Portfolio Website\n2. Travel booking app\n3. Calculator\n4. Social Media app\n5. Chat and Trading Bots\n 6. AI Subprogram System for farmers\n",
   contact: "Email: kiritim48@gmail.com\nX: x.com/Kiriti_Tech/\nGitHub: github.com/Souketsu-Punk"
 };
 
