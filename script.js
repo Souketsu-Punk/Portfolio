@@ -15,30 +15,30 @@ commandInput.addEventListener("keydown", function (e) {
     const outputBlock = document.createElement("div");
     outputBlock.className = response ? "output-success" : "output-error";
 
-    // Show the typed command prompt
+    
     const promptLine = document.createElement("div");
     promptLine.innerHTML = `<span>&gt; ${command}</span>`;
     outputBlock.appendChild(promptLine);
 
-    // Create a container for the typed response
+  
     const responseContainer = document.createElement("div");
     outputBlock.appendChild(responseContainer);
 
-    // Append to output
+
     output.appendChild(outputBlock);
     commandInput.value = "";
     output.scrollTop = output.scrollHeight;
 
-    // Type the response or error
+    
     const message = response
       ? response
       : "Unknown command. Try 'about', 'skills', 'projects', or 'contact'.";
 
-    typeText(responseContainer, message, 20); // Speed in ms
+    typeText(responseContainer, message, 20); 
   }
 });
 
-function typeText(container, text, speed = 20) {
+function typeText(container, text, speed = 15) {
   let i = 0;
   const fullText = text;
 
